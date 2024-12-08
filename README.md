@@ -11,7 +11,7 @@ Check video demo here!
 Check website here!
 - https://grid-orders-hook.webflow.io/#initial
 
-- Some fun interactions
+Some fun interactions:
 ```
 > hello! lets do some trading! are there any open positions on the gridhook?
 
