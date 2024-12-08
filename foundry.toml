@@ -1,0 +1,17 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+
+solc_version = '0.8.26'
+evm_version = "cancun"
+optimizer = true
+optimizer_runs = 200
+viaIR = true
+ffi = true
+
+remappings = [
+    "v4-core/=lib/v4-periphery/lib/v4-core/src/",
+    "@uniswap/v4-core/=lib/v4-periphery/lib/v4-core/",
+    "solmate/=lib/solmate/src/"
+]

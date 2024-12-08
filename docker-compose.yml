@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  gridbot:
+    build: .
+    ports:
+      - "8545:8545"  # Anvil RPC
+    volumes:
+      - .:/app
+      - foundry_cache:/root/.foundry  # Persist Foundry cache
+      - rye_cache:/root/.rye          # Persist Rye cache
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+    stdin_open: true  # Keep STDIN open
+    tty: true        # Allocate a pseudo-TTY
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8545"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  foundry_cache:
+  rye_cache:
