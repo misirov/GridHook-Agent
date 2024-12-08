@@ -2,6 +2,15 @@
 
 An interactive bot that helps you manage grid trading positions using Uniswap v4's hooks. Communicate with smart contracts using natural language!
 
+## Demo
+
+Check video demo here! 
+- https://x.com/p_misirov/status/1865670128412619070
+
+Check website here!
+- https://grid-orders-hook.webflow.io/#initial
+
+
 ## Features
 
 ### Natural Language Trading Terminal
