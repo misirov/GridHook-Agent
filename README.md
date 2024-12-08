@@ -10,6 +10,65 @@ Check video demo here!
 Check website here!
 - https://grid-orders-hook.webflow.io/#initial
 
+Some fun interactions
+```
+> hello! lets do some trading! are there any open positions on the gridhook?
+
+Assistant: Hello! It looks like there are currently no open positions on the Grid Hook. Would you like to create a new position or explore other operations?
+
+> cool! lets open a buy order for 100 token0 at tick 60
+
+Assistant: Your buy order for 100 Token0 at tick 60 has been successfully placed!  🎉 If you want to manage or view this position in the future, just let me know. Is there anything else you'd like to do?
+
+> and also... a sell order for 200 token1 at tick -60
+
+Assistant: Your buy order for 100 token0 at tick 60 has been successfully placed with transaction hash 0x78794396d9cfff84eec7ea02f8512df5e0f5980ba8153fd165c784db29436fca.
+And, your sell order for 200 token1 at tick -60 has also been processed successfully with transaction hash 0x208622e54a7cf98cf8b0212ee819baf4ed1f0d96f9b9b3ba3a9040406eb9b6a8.
+Would you like to check the status of your positions or perform any other operations?
+
+> amazing, can i see my orders?
+
+Assistant: Here are your current orders:
+1. **Sell Order for token0 at tick -60:**
+   - Position ID: 98503915914194906783043586618936865486115098976371611728845358547292137225057
+   - Pending order amount: 200.0000 tokens (token0)
+   - Claimable output tokens (token1): 0.0000 tokens
+   - You have a total of 200.0000 tokens (token0) in this order awaiting to be sold.
+
+2. **Sell Order for token1 at tick 60:**
+   - Position ID: 42787834252947494562182276410994600832354159539974871410613245068748826899716
+   - Pending order amount: 100.0000 tokens (token1)
+   - Claimable output tokens (token0): 0.0000 tokens
+   - You have a total of 100.0000 tokens (token1) in this order awaiting to be sold.
+
+Let me know if you would like to perform more operations or need assistance with anything else!
+
+> great!! what is my current balance by the way?
+
+Assistant: Your current balances are:
+- 99,598.991951 MockA (Token0)
+- 99,701.000000 MockB (Token1)
+- 9,999.986737 ETH
+Looks like you're well-stocked to continue trading!
+
+> nice, lets swap 1 token0 for token1
+
+Assistant: Your swap of 1 Token0 for Token1 was successful! 🎉
+Would you like to perform any other operations or check on the status of your positions again?
+
+> i want to know the difference between my current balance and the previous one
+
+Assistant: After the swap transaction:
+- **Token0 (MockA):** You used 1 Token0 for the swap. Your balance changed from 99598.991951 to 99597.991951.
+- **Token1 (MockB):** You received some amount of Token1 in exchange. Your balance increased from 99701.000000 to 99701.982183.
+- **ETH:** The slight decrease in ETH balance (from 9999.986737 to 9999.986577) represents the gas used for the transaction.
+
+In summary, you spent 1 Token0 (MockA) and received approximately 0.982183 Token1 (MockB) in return, with a bit of ETH spent on gas for the transaction.
+
+> nice! thank you! bye
+
+Assistant: You're welcome! If you have more questions in the future or need further assistance with your trades, don't hesitate to reach out. Have a great day and bye for now!
+```
 
 ## Features
 
