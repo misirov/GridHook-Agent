@@ -1,6 +1,7 @@
 # Grid Trading Bot for Uniswap v4
 
 An interactive bot that helps you manage grid trading positions using Uniswap v4's hooks. Communicate with smart contracts using natural language!
+by [p_misirov](https://x.com/p_misirov), [deivitto](https://x.com/Deivitto) and [0x4non](https://x.com/eugenioclrc)
 
 ## Demo
 
@@ -10,7 +11,7 @@ Check video demo here!
 Check website here!
 - https://grid-orders-hook.webflow.io/#initial
 
-Some fun interactions
+- Some fun interactions
 ```
 > hello! lets do some trading! are there any open positions on the gridhook?
 
